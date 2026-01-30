@@ -32,29 +32,29 @@
 </header>
 
 <div class="container">
-    <section>
-        <h2>Methodology Overview</h2>
-        <p>ADMeth leverages <strong>Autoencoder architectures</strong> to learn the "normal" methylation patterns from healthy individuals. By identifying deviations (anomalies) in DNA methylation data, the tool can predict Pancreatic Ductal Adenocarcinoma (PDAC) up to 3 years before clinical diagnosis.</p>
-        
-        <img src="GraphicalAbstractAD.png" alt="ADMeth Graphical Abstract" class="abstract-img">
-    </section>
-
     <div class="grid">
         <div class="card">
             <h3><i class="fas fa-microscope"></i> High Performance</h3>
-            <p>Achieved a <strong>0.76 ROC AUC</strong> in predicting patients who develop PDAC within 3 years, significantly outperforming traditional raw &beta;-value analysis (0.55).</p>
+            <p>Achieved a <strong>0.75 ROC AUC</strong> in predicting patients who develop PDAC within 3 years, significantly outperforming traditional raw &beta;-value analysis (0.55).</p>
         </div>
         <div class="card">
             <h3><i class="fas fa-dna"></i> Region Discovery</h3>
-            <p>Identifies specific genomic regions (e.g., DDI2, MRPL1) linked to disease biology through REC scores and functional enrichment analysis (p < 0.01).</p>
+            <p>Identifies specific genomic regions linked to disease biology through REC scores and functional enrichment analysis.</p>
         </div>
     </div>
 
     <section style="margin-top: 3rem;">
-        <h2>Abstract</h2>
+        <h2>Aims</h2>
         <p style="text-align: justify; background: white; padding: 20px; border-radius: 8px;">
             DNA methylation is a key epigenetic mechanism in cancer biology. ADMeth proposes a novel method using anomaly detection to identify early and subtle patterns that are invisible to conventional bioinformatics. Trained on ~20,000 publicly available samples, this pipeline addresses the high dimensionality of methylation arrays and facilitates agnostic exploration across diseases.
         </p>
+    </section>
+
+    <section>
+        <h2>Methodology</h2>
+        <p>ADMeth leverages <strong>Autoencoder architectures</strong> to learn the "normal" methylation patterns from healthy individuals. By identifying deviations (anomalies) in DNA methylation data, the tool can predict Pancreatic Ductal Adenocarcinoma (PDAC) up to 3 years before clinical diagnosis.</p>
+        
+        <img src="GraphicalAbstractAD.png" alt="ADMeth Graphical Abstract" class="abstract-img">
     </section>
 
     <section style="margin-top: 3rem;">
